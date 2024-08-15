@@ -1,0 +1,59 @@
+.head{grid-area: head;}
+.side{grid-area: side;}
+.con{grid-area: con;}
+.con2{grid-area: con2;}
+.con3{grid-area: con3;}
+.foot{grid-area: foot;}
+.whole{
+    display: grid;
+    grid-template-areas: 'head head head'
+    'side con con'
+    'side con2 con3'
+    'foot foot foot';
+    background-color: rgb(53, 49, 49);
+    text-align: center;
+    padding: 20px 0;
+    gap: 5px;
+}
+.head{
+    background-color: rgb(42, 10, 100);
+    background-image: linear-gradient(to bottom right,rgb(66, 45, 141),rgb(112, 72, 204));
+    border: 5px solid black;
+    text-align: center;
+    padding: 50px 0;
+}
+.side{
+    background-color: rgb(16, 219, 118);
+    background-image: linear-gradient(to bottom right,rgb(19, 107, 70),rgb(90, 224, 135));
+    border: 5px solid black;
+    text-align: center;
+    padding: 30px 0;
+}
+.con{
+    background-color: rgb(84, 16, 212);
+    background-image: linear-gradient(to bottom right,rgb(19, 118, 199),rgb(92, 195, 226));
+    border: 5px solid black;
+    text-align: center;
+    padding: 100px 0;
+}
+.con2{
+    background-color: rgb(92, 41, 233);
+    background-image: linear-gradient(to bottom right,rgb(42, 202, 207),rgb(99, 206, 233));
+    border: 5px solid black;
+    text-align: center;
+    padding: 80px 0;
+}
+.con3{
+    background-color: rgb(42, 10, 100);
+    background-image: linear-gradient(to bottom right,rgb(45, 130, 141),rgb(94, 175, 223));
+    border: 5px solid black;
+    text-align: center;
+    padding: 100px 0;
+}
+.foot{
+    background-color: rgb(42, 10, 100);
+    background-image: linear-gradient(to bottom right,rgb(66, 45, 141),rgb(112, 72, 204));
+    border: 5px solid black;
+    text-align: center;
+    padding: 50px 0;
+}
